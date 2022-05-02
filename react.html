@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Store</title>
+    <link rel="preload" as="style" href="Estilo.css">
+    <link rel="stylesheet" href="Estilo.css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@200&display=swap" rel="stylesheet">
+    </head>
+
+<body>  
+
+    <div class="cabecera-principal">
+        <div class="cabecera">
+            <header>
+                <a href="Inicio.html"><img class="logo" src="img/logo.png" alt="Logotipo"></a>
+            </header>
+        </div >
+        
+        <div class="nav-contenedor">
+            <nav class="navegacion">
+                <a href="Inicio.html" >Inicio</a>
+                <a href="Tienda.html" class="nav_enlace-activo">Tienda</a>
+                <a href="Nosotros.html">Quienes somos</a>
+                <a href="#">Contactanos</a>
+            </nav>
+        </div>
+    </div>
+
+    <div class="producto__react">
+
+        <img src="/img/3.jpg" alt="Camisa de React">
+
+
+        <div class="producto__informacion">
+            <h2>CAMISETA DE REACT</h2>
+            <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Aliquam doloribus est reiciendis 
+            praesentium architecto nemo libero voluptatum deleniti, 
+            voluptatem atque laborum nostrum exercitationem sunt 
+            accusantium esse nisi debitis quibusdam temporibus!</p>
+            <form class="formulario">
+                <select class="producto__talla">
+                    <option disabled selected> <--- Seleccionar Talla ---> </option>
+                    <option>Chica</option>
+                    <option>Mediana</option>
+                    <option>Grande</option>
+                </select>
+            
+                <div style="display: flex; justify-content: space-evenly;">
+                    <p>Cantidad:</p>
+                    <input class="producto__cantidad" type="number" min="1" value="1">
+                </div>
+                <input class="agregar__carrito" type="submit" value="Agregar al Carrito">    
+            </form>
+        </div>
+    </div>
+        
+    
+
+</body>
+</html>
